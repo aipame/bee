@@ -43,7 +43,7 @@ var cmdDlv = &commands.Command{
 
   To debug your application using Delve, use: {{"$ bee dlv" | bold}}
 
-  For more information on Delve: https://github.com/derekparker/delve
+  For more information on Delve: https://github.com/go-delve/delve
 `,
 	PreRun: func(cmd *commands.Command, args []string) { version.ShowShortVersionBanner() },
 	Run:    runDlv,
